@@ -9,11 +9,11 @@ This project includes a simple Python-based TCP port forwarder and a minimal tes
 
 # How To Run
 1. Start the Test Server (default port 9999)
-        python3 open_server.py
+  - python3 open_server.py
 2. Run the Port Forwarder
-        python3 port_forward.py :9999 127.0.0.1:9999
+  - python3 port_forward.py :9999 127.0.0.1:9999
 3. Send Test Traffic
-        curl --data "Test" http://127.0.0.1:<forwarded_port>
+  - curl --data "Test" http://127.0.0.1:<forwarded_port>
 
 # Learning Objectives
 - Understand how socket communication works between client and server
