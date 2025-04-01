@@ -2,7 +2,7 @@
 
 """
 Author: Luke Zeman
-File: echo_server.py
+File: open_server.py
 Description: Simple TCP server that listens for incoming connections and prints received data.
 Course: CSC 346 - Cloud Computing
 Date: March 2025
